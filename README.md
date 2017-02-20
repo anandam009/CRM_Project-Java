@@ -1,2 +1,3 @@
-# CRM_Project-Java
-CRM Java Project based on Spring and Hibernate frameworks 
+**CRM Java Project**
+
+CRM (Customer Relationship Management) Java Project built using Spring and Hibernate frameworks.
