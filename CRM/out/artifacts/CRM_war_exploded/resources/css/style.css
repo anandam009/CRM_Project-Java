@@ -8,12 +8,12 @@ table {
 	border-collapse:collapse;
 	border-bottom:1px solid gray;
 	font-family: Tahoma,Verdana,Segoe,sans-serif;
-	width:72%;
+	width:71%;
 }
  
 th {
 	border-bottom:1px solid gray;
-	background:none repeat scroll 0 0 #09c332;
+	background:none repeat scroll 0 0 #7FCC3C;
 	padding:10px;
 	color: #FFFFFF;
 }
@@ -27,14 +27,16 @@ tr:nth-child(even) {background: #FFFFFF}
 tr:nth-child(odd) {background: #BBBBBB}	
  
 #wrapper {width: 100%; margin-top: 0px; }
-#header {width: 70%; background: #09c332; margin-top: 0px; padding:15px 0px 15px 15px;}
+#header {width: 70%; background: #7fcc3c; margin-top: 0px; padding:15px 0px 15px 15px;}
 #header h2 {width: 100%; margin:auto; color: #FFFFFF;}
 #container {width: 100%; margin:auto}
 #container h3 {color: #000;}
 #container #content {margin-top: 20px;}
+#wrap { width: 70%; margin-top: 0px; }
+#header2 {width: 102%; background: #7fcc3c; color: #FFFFFF; font-size: medium; margin-top: 0px; padding:1px 0px 1px 1px;}
 
 .add-button {
-	border: 1px solid #666; 
+	border: 1px solid #777;
 	border-radius: 5px; 
 	padding: 4px; 
 	font-size: 12px;

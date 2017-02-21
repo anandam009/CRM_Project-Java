@@ -16,10 +16,22 @@ public class CustomerServiceImpl implements CustomerService {
     @Autowired
     private CustomerDAO customerDAO;
 
-
     @Override
     @Transactional   // service layer will define the beginning and end of transaction
     public List<Customer> getCustomers(){
         return customerDAO.getCustomers();
+    }
+
+    @Override
+    @Transactional
+    public void saveCustomer(Customer theCustomer) {
+        customerDAO.saveCustomer(theCustomer);
+    }
+
+    @Override
+    @Transactional
+    public Customer getCustomer(int theId) {
+
+        return customerDAO.getCustomer(theId);
     }
 }
