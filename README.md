@@ -6,6 +6,6 @@ Functionalities
 
 1/ List customers in a table view
 
-2/ Customer can be added, updated nad deleted
+2/ Customer can be added, updated and deleted
 
-3/ search for customer
+3/ Search for customer
